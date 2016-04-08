@@ -1,0 +1,37 @@
+/*
+Theme Name: Empty Theme
+Theme URI: https://te-online.net/
+Author: Thomas Ebert, te-online.net
+Author URI: http://te-online.net/
+Description: A fully featured responsive empty theme for learning purposes for beginners.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: empty
+Text Domain: empty-theme
+
+I don't have any nice words here like the offical WordPress themes always have.
+That's because this theme is nothing special, just empty.
+*/
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.post_content p {
+	line-height: 1.63em;
+}
+
+#wrapper {
+	max-width: 1200px;
+	width: 60%;
+	min-width: 300px;
+	margin: auto;
+}
+
+article {
+	border-bottom: 10px dotted #DBDBDB;
+  margin: 60px 0;
+  padding: 0 0 10px;
+}
